@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Modern</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(to bottom, #667eea, #764ba2);
+            background-attachment: fixed; /* agar gradasi tetap */
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(12px);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        .photo-frame {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 15px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid rgba(255,255,255,0.6);
+            box-shadow: 0 0 20px rgba(255,255,255,0.4);
+        }
+        .photo-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        h1 {
+            margin: 10px 0;
+            font-weight: 600;
+            font-size: 1.8em;
+        }
+        .biodata {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 10px;
+            text-align: left;
+            margin-top: 20px;
+        }
+        .biodata div {
+            padding: 8px;
+            background: rgba(255,255,255,0.08);
+            border-radius: 8px;
+        }
+        .biodata .label {
+            font-weight: 600;
+            color: #ffd369;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="photo-frame">
+        <img src="fotoku.png" alt="Foto Profil">
+    </div>
+    <h1>Moch.Hikmal Abrar</h1>
+    <div class="biodata">
+        <div class="label">Tempat, Tanggal Lahir</div><div>Jember, 13 Desember 2007</div>
+        <div class="label">Jenis Kelamin</div><div>Laki-laki</div>
+        <div class="label">Alamat</div><div>Jl. Kepodang, Desa. Wringinagung, Kec. Jombang, Kab. Jember, Indonesia</div>
+        <div class="label">Email</div><div>pepohonankayujati674@gmail.com</div>
+        <div class="label">No. HP</div><div>+62 858-5262-8669</div>
+        <div class="label">Hobi</div><div>Lari ,Badminton ,Bermain Game ,Membaca Komik</div>
+    </div>
+</div>
+
+</body>
+</html>
